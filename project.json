@@ -1,0 +1,71 @@
+{
+  "name": "UiPath_Jenkins_CICD_Demo",
+  "description": "Test Library for CICD",
+  "main": "NewActivity.xaml",
+  "dependencies": {
+    "UiPath.Excel.Activities": "2.10.4",
+    "UiPath.Mail.Activities": "1.10.4",
+    "UiPath.System.Activities": "21.4.0",
+    "UiPath.Testing.Activities": "1.3.2",
+    "UiPath.UIAutomation.Activities": "21.4.3"
+  },
+  "webServices": [],
+  "entitiesStores": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "21.4.2.0",
+  "projectVersion": "1.0.73071994",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "isPausable": true,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Library",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "processOptions": {
+      "ignoredFiles": []
+    },
+    "fileInfoCollection": [
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "14adcaea-2688-4f57-8fcf-4bc4779cf760",
+        "fileName": "Print as PDF\\Test_Convert Excel to PDF\\Convert Excel to PDF_Negative_Input file not found.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "2ebe1d71-740a-43eb-a672-65a12810fe2c",
+        "dataVariationFilePath": ".variations\\Convert Excel to PDF_Negative_NullInput.json",
+        "fileName": "Print as PDF\\Test_Convert Excel to PDF\\Convert Excel to PDF_Negative_Null input.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "97b372ea-9268-448c-996f-4a61d77f0afa",
+        "fileName": "Print as PDF\\Test_Convert Excel to PDF\\Convert Excel to PDF_Negative_PDF file already open.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "52ee1199-3612-4914-bb51-aaa02bfbb627",
+        "dataVariationFilePath": ".variations\\Convert Excel to PDF_Positive.json",
+        "fileName": "Print as PDF\\Test_Convert Excel to PDF\\Convert Excel to PDF_Positive.xaml"
+      }
+    ],
+    "modernBehavior": false
+  },
+  "expressionLanguage": "VisualBasic",
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {},
+  "targetFramework": "Legacy"
+}
